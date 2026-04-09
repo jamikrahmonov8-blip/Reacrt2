@@ -6,7 +6,7 @@ import About from './page/About'
 function App() {
   return (
     <BrowserRouter>
-      <nav style={{ display: "flex", gap: "10px" }}>
+      <nav className='flex gap-[30px] h-[50px] items-center max-w-[920px] m-auto bg-amber-50' >
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
       </nav>
